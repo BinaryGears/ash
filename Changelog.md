@@ -4,13 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased] - ReleaseDate
+## [0.37.1] - ReleaseDate
 
 ### Added
 
 - Added `VK_NV_coverage_reduction_mode` device extension (#617)
 - Added `VK_EXT_sample_locations` device extension (#616)
 - Update Vulkan-Headers to 1.3.211 (#605, #608)
+- Set MSRV (Minimum Supported Rust Version) in `Cargo.toml` for clearer errors (#604)
 - Added `VK_EXT_image_drm_format_modifier` device extension (#603)
 
 ## [0.37.0] - 2022-03-23
@@ -328,7 +329,8 @@ flags: vk::CommandPoolCreateFlags::RESET_COMMAND_BUFFER_BIT,
 can write to aligned memory.
 
 
-[Unreleased]: https://github.com/MaikKlein/ash/compare/0.37.0...HEAD
+[Unreleased]: https://github.com/MaikKlein/ash/compare/0.37.1...HEAD
+[0.37.1]: https://github.com/MaikKlein/ash/releases/tag/0.37.1
 [0.37.0]: https://github.com/MaikKlein/ash/releases/tag/0.37.0
 [0.36.0]: https://github.com/MaikKlein/ash/releases/tag/0.36.0
 [0.35.2]: https://github.com/MaikKlein/ash/releases/tag/0.35.2
