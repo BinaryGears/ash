@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update Vulkan-Headers to 1.3.211 (#605, #608)
 - Added `VK_EXT_image_drm_format_modifier` device extension (#603)
 - Added `VK_KHR_device_group_creation` instance extension (#630)
+- Added `VK_KHR_device_group` device extension (#631)
 
 ### Removed
 
